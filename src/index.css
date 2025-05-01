@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-gray-800;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .container {
+    @apply px-4 mx-auto max-w-7xl;
+  }
+  
+  .btn {
+    @apply px-6 py-3 font-medium rounded-md transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-opacity-50;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary text-white hover:bg-primary-dark focus:ring-primary;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-secondary text-white hover:bg-secondary-dark focus:ring-secondary;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-4;
+  }
+  
+  .section-subtitle {
+    @apply text-xl text-gray-600 mb-12 max-w-3xl mx-auto;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:shadow-lg;
+  }
+  
+  .nav-link {
+    @apply px-3 py-2 text-gray-700 hover:text-primary transition-colors duration-300;
+  }
+  
+  .nav-link.active {
+    @apply text-primary font-medium;
+  }
+  
+  .fade-in {
+    @apply opacity-0 translate-y-8;
+  }
+  
+  .fade-in.appear {
+    @apply opacity-100 translate-y-0 transition-all duration-700;
+  }
+}
