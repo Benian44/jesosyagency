@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -218,15 +218,10 @@
                             <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-6">
                                 <p class="text-yellow-700">💡 Idéal pour ceux qui savent installer un script et veulent commencer vite.</p>
                             </div>
-                            <div class="flex flex-col space-y-3">
-    <button onclick="acheterPack('Pack Starter', '30 000')" 
-            class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
-        Acheter maintenant
-    </button>
-    <a href="index.html#demo" class="w-full flex items-center justify-center bg-purple-500 hover:bg-purple-600 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
-        <i class="fas fa-play-circle mr-2"></i> Voir dÃ©mo
-    </a>
-</div>
+                            <button onclick="acheterPack('Pack Premium', '100 000')" 
+                                    class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
+                                Acheter
+                            </button>
                         </div>
                     </div>
 
@@ -265,15 +260,10 @@
                             <div class="bg-blue-50 border-l-4 border-blue-400 p-4 mb-6">
                                 <p class="text-blue-700">💡 Idéal pour ceux qui ne veulent pas se compliquer avec l'installation technique.</p>
                             </div>
-                            <div class="flex flex-col space-y-3">
-    <button onclick="acheterPack('Pack Starter', '30 000')" 
-            class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
-        Acheter maintenant
-    </button>
-    <a href="index.html#demo" class="w-full flex items-center justify-center bg-purple-500 hover:bg-purple-600 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
-        <i class="fas fa-play-circle mr-2"></i> Voir dÃ©mo
-    </a>
-</div>
+                            <button onclick="acheterPack('Pack Premium', '100 000')" 
+                                    class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
+                                Acheter
+                            </button>
                         </div>
                     </div>
 
@@ -310,15 +300,10 @@
                             <div class="bg-purple-50 border-l-4 border-purple-400 p-4 mb-6">
                                 <p class="text-purple-700">💡 Idéal pour ceux qui veulent un site clé en main prêt à encaisser partout dans le monde.</p>
                             </div>
-                            <div class="flex flex-col space-y-3">
-    <button onclick="acheterPack('Pack Starter', '30 000')" 
-            class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
-        Acheter maintenant
-    </button>
-    <a href="index.html#demo" class="w-full flex items-center justify-center bg-purple-500 hover:bg-purple-600 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
-        <i class="fas fa-play-circle mr-2"></i> Voir dÃ©mo
-    </a>
-</div>
+                            <button onclick="acheterPack('Pack Premium', '100 000')" 
+                                    class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
+                                Acheter
+                            </button>
                         </div>
                     </div>
                 </div>
